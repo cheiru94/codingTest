@@ -1,4 +1,4 @@
-/* 문자열 반복해서 출력하기 */
+// 🔸　문자열 반복해서 출력하기 
 
 const readline = require('readline');
 const rl = readline.createInterface({
