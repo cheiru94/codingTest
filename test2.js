@@ -1,4 +1,4 @@
-// 🔸　대소문자 바꿔서 출력하기
+// 🔸 대소문자 바꿔서 출력하기
 
 
 /* 
@@ -16,7 +16,7 @@ let input = ['aBcDeFg'];
 
 rl.on('line', function (line) {
     input = [line];
-}).on('close',function(){
+}).on('close', function () {
     str = input[0];
 
     let arr = [...str]; // 원본 유지하기 위해 새로운 배열 생성
@@ -24,12 +24,12 @@ rl.on('line', function (line) {
 
     // 반복문을 통하여 문자열을 하나씩 검열
     for (let i = 0; i < arr.length; i++) {
-        
+
         // 대문자?
         if (arr[i] === arr[i].toUpperCase()) {
             result += arr[i].toLowerCase()
-        
-        // 소문자?
+
+            // 소문자?
         } else {
             result += arr[i].toUpperCase()
         }

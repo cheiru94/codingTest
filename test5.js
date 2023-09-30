@@ -1,4 +1,4 @@
-// 홀짝 구분하기
+// 🔸 홀짝 구분하기
 
 const readline = require('readline');
 const rl = readline.createInterface({
@@ -14,7 +14,7 @@ rl.on('line', function (line) {
     n = Number(input[0]);
 
     //홀짝 구분
-    if (n%2===0) {
+    if (n % 2 === 0) {
         console.log(`${n} is even`);
     } else {
         console.log(`${n} is odd`);
