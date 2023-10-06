@@ -13,15 +13,15 @@ var twoSum = function (nums, target) {
   const newArray = [];
 
 
-  // 1. array
+  // 1. 배열
   for (let first = 0; first < array.length; first++) {
-    // 2. copyArray
+    // 2. 베열 복사
     for (let second = 0; second < copyArray.length; second++) {
       if (first === second) {
         continue;
       } else {
         if (target === array[first] + copyArray[second]) {
-          newArray.push(first) // 3. newArrayに追加
+          newArray.push(first) // 3. 새로운 배열에 추가
         }
       }
     }
