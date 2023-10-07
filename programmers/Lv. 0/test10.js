@@ -1,4 +1,4 @@
-Valid_Parentheses
+
 // 🔸 Valid_Parentheses
 
 function isValid(s) {

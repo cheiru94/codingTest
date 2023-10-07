@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 // 🔸 Plus_One
 
@@ -25,7 +24,6 @@ var plusOne = function (digits) {
 
 // 시도
 console.log(plusOne([9]));
-=======
 // 🔸 문자 리스트를 문자열로 변환하기
 
 function solution(arr) {
@@ -40,4 +38,3 @@ function solution(arr) {
 }
 
 solution(["a","b","c"]);
->>>>>>> 43f6a096485dff8cf59a4fac0e99d09dd6749f5e
